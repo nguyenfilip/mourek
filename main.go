@@ -7,6 +7,6 @@ import (
 
 func main() {
 	bi, ok := debug.ReadBuildInfo()
-	fmt.Printf("Under development")
-	fmt.Printf("%v\n%+v\n", ok, bi)
+	fmt.Printf(" %v\n%+v\n", ok, bi)
+	fmt.Printf("new version 0.0.2")
 }
